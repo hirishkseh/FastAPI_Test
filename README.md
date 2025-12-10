@@ -19,3 +19,18 @@ A FastAPI-based backend service with user authentication, file uploads, and imag
 - **Frontend**: Streamlit
 - **Package Manager**: uv
 
+
+## Running the Application
+
+Start the API Server
+uv run .\main.py
+
+The server will start on `http://0.0.0.0:8000`
+
+Access the interactive API documentation:
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+
+Run the Streamlit Frontend
+uv run streamlit run .\frontend.py #In a separate terminal
+The Streamlit app will open at `http://localhost:8501`
